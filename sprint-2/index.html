@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Bill Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="nav">
+            <a href="home.html">Home</a>
+            <a class="c5">Order</a>
+        </div>
+        <div>
+            <h1>COAL BARBEQUE</h1>
+        </div>
+        <hr>
+        <p id="id1">Bill Generator</p>
+        <hr>
+        <div class="box-1">
+            <p>Order Items</p>
+            <label>SELECT DAY</label>
+            <br>
+            <select id="day">
+                <option>SELECT</option>
+                <option>MONDAY</option>
+                <option>TUESDAY</option>
+                <option>WEDNESDAY</option>
+                <option>THURSDAY</option>
+                <option>FRIDAY</option>
+                <option>SATURDAY</option>
+                <option>SUNDAY</option>
+          </select>
+            <br><br>
+            <label >SELECT FOOD</label>
+            <br>
+            <select id="item" >
+                <option>SELECT</option>
+                <option>Panner Butter Masala</option>
+                <option>Panner Tikka</option>
+                <option>Kadai Panner</option>
+                <option>Mushroom Masala</option>
+                <option>Gobi Manchurian</option>
+                <option>Gobi 65</option>
+                <option>Gobi Fry</option>
+                <option>Gobi Masala</option>
+                <option>Naan</option>
+                <option>Butter Naan</option>
+                <option>Garlic Naan</option>
+                <option>Spl Naan</option>
+                <option>Gobi Rice</option>
+                <option>Fried Rice</option>
+            </select>
+            <br><br>
+            <label>QUANTITY</label>
+            <br>
+            <input type="number" name="quantity" id="quantity">
+            <br><br>
+            <input type="submit" value="ADD" id="add">
+        </div>
+        <div class="box-2">
+            <p>Ordered Items</p>
+            <hr>
+        </div>
+        <div class="display">
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
